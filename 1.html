@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="register">
+        <h2>Data diri</h2>
+        <form method="post" id="register" action="">
+            <label>Nama Lengkap</label><br>
+            <input class="nama" type="text" placeholder="Nama Lengkap"><br><br>
+            <label>Tempat Lahir</label><br>
+            <select id="tl" name="tl">
+                <option></option>
+                <option>Tangerang</option>
+                <option>Jakarta</option>
+                <option>Bekasi</option>
+                <option>Bogor</option>
+            </select><br><br>
+            <label>Tanggal Lahir</label><br>
+            <input class="tgl" type="text" placeholder="mmmm dd, yyyy"><br><br>
+            <label>No.Hp</label><br>
+            <input class="no" type="text" placeholder=""><br><br>
+            <label>Alamat</label><br>
+            <input class="alamat" type="text" placeholder=""><br><br>
+            <label>Pendidikan Terakhir</label><br>
+            <select name="pt" id="pt">
+                <option></option>
+                <option>SLTA/SMK</option>
+                <option>Diploma/D3 </option>
+                <option>Sarjana/S1</option>
+            </select><br><br>
+            <label><b>Agama</b></label><br>
+            <input type="radio" name="Agama" id="islam"><span id="islam">Islam</span><br>
+            <input type="radio" name="Agama" id="kristen"><span id="kristen">Kristen</span><br>
+            <input type="radio" name="Agama" id="katolik"><span id="katolik">Katolik</span><br><br>
+
+            <label><b>Hobi</b></label><br>
+            <input type="checkbox" name="renang" id="renang"><span id="renang"></span>Renang</span><br>
+            <input type="checkbox" name="mancing" id="mancing"><span id="mancing">Mancing</span><br>
+            <input type="checkbox" name="game" id="game"><span id="game">Game</span><br>
+            <input type="checkbox" name="gibah" id="gibah"><span id="gibah">Gibah</span><br>
+            <input type="checkbox" name="programming" id="programming"><span id="programming">Programming</span><br><br>
+            <input type="submit" value="submit" id="sub">
+        </form>
+    </div>
+</body>
+
+</html>
